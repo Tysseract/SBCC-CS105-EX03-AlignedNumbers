@@ -24,13 +24,13 @@ Product:                   500
 Distance:                    5
 Maximum:                    25
 Minimum:                    20
-Hints:
 ```
 
-- The inputs will not be in green. That is to show user input.
-- There are 30 characters in the first line starting with "S" and ending with "5".
-- The ones digits are all aligned.
-- Use `printf`
+#### Hints:
+
+1. There are 30 characters in the first line starting with "S" and ending with "5".
+2. The ones digits are all aligned.
+3. Use `printf`
 
 ### Getting Started
 
@@ -76,7 +76,29 @@ Next, write your code to print out the letter size in `public static void main` 
 
 Once you've written your code run the code by single clicking on **Main.java** in the package explorer and selecting **Run->Run** from the menu or using the keyboard shortcut. Examine the output. Does it do what you want? If not, how can you modify the code to do what you want?
 
-###How to turn in this exercise
+###Using my Unit Tests
+
+Next we are going to use my unit tests to test your code. For most exercises there will be a unit test supplied that I wrote. You are supposed to use this unit test after you have written the code in **Main.java**.
+
+When you forked the project from GitHub, my unit tests were copied over. In your project you should see **AlignedNumbersTester.java** in the `unittest.cs105` package.
+
+The forked AlignedNumbers project from GitHub should look like this:
+
+<img src="https://www.dropbox.com/s/4o3rjijlug1j5j7/miyazaki_layout.png?dl=1" width="252" height="179" />
+
+Yours should look **_very_** similar! The name of the tester will change for each project, and you might have a different JRE System Library though. What should be the same are the packages and what they contain.
+
+###Running the Unit Tests
+
+Next you'll want to run these unit tests. Start by right-clicking on the `unittest.cs105` package and selecting **Run As -> JUnit Test**. 
+
+Once you have run the tests, the results of them should look something like the following:
+
+<img src="https://www.dropbox.com/s/79zw4fbsjebbx1s/junit_test.png?dl=1" width="257" height="445" />
+
+To go back to the project view, select the **Package Explorer** tab.
+
+### How to turn in this exercise
 
 The first step of turning in your code is to commit and push your code to GitHub. Once you've completed this step your code will be on GitHub in your repository, not the repository for the class. This will allow you to use all your projects later as a portfolio.
 
