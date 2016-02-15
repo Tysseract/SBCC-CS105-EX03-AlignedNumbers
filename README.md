@@ -10,8 +10,8 @@ This problem is captured in the book at problem E4.4 and E4.5 (page 168). You ar
 
 Here is a sample of how your code will prompt the user for code. When the program is run you will ask the user for two integer numbers. Do not worry about error checking; the integer inputs will always be valid.
 
-<pre>Input first number: <span style="color: #0f0;">20</span>
-Input second number: <span style="color: #0f0;">25</span>
+<pre>Enter the first number: <span style="color: #0f0;">20</span>
+Enter the second number: <span style="color: #0f0;">25</span>
 </pre>
 
 You then print all of the statistics using the **exact** format below. Your `main` method must generate this exact format for any two integers between 1 and 1000.

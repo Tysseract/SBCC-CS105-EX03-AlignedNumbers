@@ -51,7 +51,6 @@ public class AlignedNumbersTester {
 		this.oldIn  = System.in;
 		System.setOut(new PrintStream(baos));
 		System.setIn(this.bais);
-
 	}
 
 	@After
@@ -66,7 +65,7 @@ public class AlignedNumbersTester {
 		System.out.flush();
 
 		StringBuilder answer = new StringBuilder();
-		answer.append("Enter the first number: Enter the  number: ");
+		answer.append("Enter the first number: Enter the second number: ");
 		answer.append("Sum:                        45\n");
 		answer.append("Average:                    22.50\n");
 		answer.append("Difference:                 -5\n");
