@@ -67,11 +67,11 @@ public class AlignedNumbers {
      * @return A string with the metrics formatted as described
      */
     public static String alignNumbers(int first, int second) {
-    	String aligned = "";
+        String aligned = "";
     	
-	// Put your code for this assignment here.
+        // Put your code for this assignment here.
 	
-	return aligned;
+        return aligned;
     }
     
     /**
@@ -82,16 +82,15 @@ public class AlignedNumbers {
      *            command line values. Not used in this example.
      */
     public static void main(String[] args) {
-    	Scanner in = new Scanner(System.in);
-    	
-	System.out.print("Enter the first number: ");
-	int first = in.nextInt();
-	System.out.print("Enter the second number: ");
-	int second = in.nextInt();
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter the first number: ");
+        int first = in.nextInt();
+        System.out.print("Enter the second number: ");
+        int second = in.nextInt();
 
-	System.out.println(alignNumbers(first, second));
+        System.out.println(alignNumbers(first, second));
     }
-}}
+}
 ```
 
 Now go through **AlignedNumbers.java** and change the [CHANGE THIS TO YOUR INFORMATION] text to the proper items. There are two items to be changed. The CRN # is either 62498, for the Thu. night lab section, or 62499, for the Thu. morning lab section.
