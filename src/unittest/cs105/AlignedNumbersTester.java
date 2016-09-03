@@ -13,17 +13,12 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import edu.sbcc.cs105.Main;
+import edu.sbcc.cs105.AlignedNumbers;
 
 public class AlignedNumbersTester {
 	private static final int maximumScore = 6;
 	private static final int maximumAssignmentScore = 10;
 	private static int totalScore;
-
-	private PrintStream oldOut;
-	private InputStream oldIn;
-	private ByteArrayOutputStream baos;
-	private ByteArrayInputStream bais;
 
 	@BeforeClass
 	public static void beforeTesting() {
@@ -43,29 +38,9 @@ public class AlignedNumbersTester {
 		System.out.println("criteria.");
 	}
 
-	@Before
-	public void setUp() {
-		this.baos = new ByteArrayOutputStream();
-		this.bais = new ByteArrayInputStream("20 25".getBytes());
-		this.oldOut = System.out;
-		this.oldIn  = System.in;
-		System.setOut(new PrintStream(baos));
-		System.setIn(this.bais);
-	}
-
-	@After
-	public void tearDown() {
-		System.setOut(this.oldOut);
-		System.setIn(this.oldIn);
-	}
-
 	@Test
 	public void testStatPrintout() throws Exception {
-		Main.main(null);
-		System.out.flush();
-
 		StringBuilder answer = new StringBuilder();
-		answer.append("Enter the first number: Enter the second number: ");
 		answer.append("Sum:                        45\n");
 		answer.append("Average:                    22.50\n");
 		answer.append("Difference:                 -5\n");
@@ -74,9 +49,7 @@ public class AlignedNumbersTester {
 		answer.append("Maximum:                    25\n");
 		answer.append("Minimum:                    20\n");
 
-		assertEquals("The strings need to match.", answer.toString(), this.baos.toString());
-
-		this.baos.reset();
+		assertEquals("The strings need to match.", answer.toString(), AlignedNumbers.alignNumbers(20,  25));
 
 		totalScore += 6;
 	}
