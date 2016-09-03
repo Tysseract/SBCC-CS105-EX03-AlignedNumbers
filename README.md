@@ -6,7 +6,7 @@ The purpose of this assignment is for you to write more of your own comments, wr
 
 ###Problem Description
 
-This problem is captured in the book at problem E4.4 and E4.5 (page 168). You are to solve this problem by writing code in the `main` method. This code will get user input for two numbers and output the appropriate mathematical result in an organized format.
+This problem is captured in the book at problem E2.4 and E2.5 (page 71). You are to solve this problem by writing code in the `main` method. This code will get user input for two numbers and output the appropriate mathematical result in an organized format.
 
 Here is a sample of how your code will prompt the user for code. When the program is run you will ask the user for two integer numbers. Do not worry about error checking; the integer inputs will always be valid.
 
@@ -34,7 +34,7 @@ Minimum:                    20
 
 ### Getting Started
 
-Like our last exercise, we are going to start by creating **Main.java**. Using the techniques shown on the web page titled [How to Start Every Project in this Class](https://github.com/sbcc-cs105-spring2016/HowToStartEveryProject) create a source file called **Main.java**.
+Like our last exercise, we are going to start by creating **AlignedNumbers.java**. Using the techniques shown on the web page titled [How to Start Every Project in this Class](http://crowd.cs.sbcc.edu:7990/projects/CS105F2016/repos/allan.knight/browse/HowToStartEveryProject.md) create a source file called **AlignedNumbers.java**.
 
 ```java
 /**
@@ -55,7 +55,7 @@ import java.util.*;
  * This class tests the AlignedNumbers object.
  *
  */
-public class Main {
+public class AlignedNumbers {
 
     /**
      * This code runs by asking for two numbers, computing the various stats,
@@ -70,19 +70,19 @@ public class Main {
 }
 ```
 
-Now go through **Main.java** and change the [CHANGE THIS TO YOUR INFORMATION] text to the proper items. There are two items to be changed. The CRN # is either 62498, for the Thu. night lab section, or 62499, for the Thu. morning lab section.
+Now go through **AlignedNumbers.java** and change the [CHANGE THIS TO YOUR INFORMATION] text to the proper items. There are two items to be changed. The CRN # is either 62498, for the Thu. night lab section, or 62499, for the Thu. morning lab section.
 
 Next, write your code to print out the letter size in `public static void main` between the curly braces.
 
-Once you've written your code run the code by single clicking on **Main.java** in the package explorer and selecting **Run->Run** from the menu or using the keyboard shortcut. Examine the output. Does it do what you want? If not, how can you modify the code to do what you want?
+Once you've written your code run the code by single clicking on **AlignedNumbers.java** in the package explorer and selecting **Run->Run** from the menu or using the keyboard shortcut. Examine the output. Does it do what you want? If not, how can you modify the code to do what you want?
 
 ###Using my Unit Tests
 
-Next we are going to use my unit tests to test your code. For most exercises there will be a unit test supplied that I wrote. You are supposed to use this unit test after you have written the code in **Main.java**.
+Next we are going to use my unit tests to test your code. For most exercises there will be a unit test supplied that I wrote. You are supposed to use this unit test after you have written the code in **AlignedNumbers.java**.
 
-When you forked the project from GitHub, my unit tests were copied over. In your project you should see **AlignedNumbersTester.java** in the `unittest.cs105` package.
+When you forked the project from BitBucket, my unit tests were copied over. In your project you should see **AlignedNumbersTester.java** in the `unittest.cs105` package.
 
-The forked AlignedNumbers project from GitHub should look like this:
+The forked AlignedNumbers project from BitBucket should look like this:
 
 <img src="https://www.dropbox.com/s/4o3rjijlug1j5j7/miyazaki_layout.png?dl=1" width="252" height="179" />
 
@@ -100,7 +100,7 @@ To go back to the project view, select the **Package Explorer** tab.
 
 ### How to turn in this exercise
 
-The first step of turning in your code is to commit and push your code to GitHub. Once you've completed this step your code will be on GitHub in your repository, not the repository for the class. This will allow you to use all your projects later as a portfolio.
+The first step of turning in your code is to commit and push your code to BitBucket. Once you've completed this step your code will be on BitBucket in your repository, not the repository for the class. This will allow you to use all your projects later as a portfolio.
 
 To start the process write click your project and select **Team -> Commit...**. You should see the following dialog:
 
@@ -108,38 +108,20 @@ To start the process write click your project and select **Team -> Commit...**. 
 
 Now follow these steps to commit and push your code:
 
-1. Select the files by check marking the files you want to commit. In this case **Main.java**. 
+1. Select the files by check marking the files you want to commit. In this case **AlignedNumbers.java**. 
 2. Enter a commit message. The commit message can be anything, but should describe the changes that are begin committed. A good commit message in this case might be "Committing code to check in for assignment"
 3. Press **Commit and Push**
 
-You will see a few more dialogs (including ones that may ask for your GitHub username and password) go by and then you will see something similar to the following:
+You will see a few more dialogs (including ones that may ask for your BitBucket username and password) go by and then you will see something similar to the following:
 
 ![Push dialogue](https://www.dropbox.com/s/niao32p4abbx4k2/push-git.png?dl=1)
 
-1. Push **OK** to complete the commit. You may get no confirmation, but you can check GitHub to see if the code now exists there.
+1. Push **OK** to complete the commit. You may get no confirmation, but you can check BitBucket to see if the code now exists there.
 
-####Completing the turn-in process
+#### Completing the turn-in process
 
-Now to complete the turn-in process, once you confirmed that your code is on GitHub, you need to create a **pull request** against the class GitHub repository. This action will indicate to the original project that you have finished your coding and it will create a place to give feedback on a line by line basis. 
+Now to complete the turn-in process, once you confirmed that your code is on BitBucket, you need to create a **build plan** on Bamboo. This action will create a Bamboo build plan that will build and test your code every time you push code to your project. You can also run builds manually
 
-Go to **your** repository (the URL of your repository is something like https://<i></i>github.com/&lt;Your GitHub Username&gt;/EX03-AlignedNumbers) for this assignment on GitHub and click on the **Pull Request** icon. You should see something similar to this picture:
+Follow the directions in [How to Turn in Every Project in This Class](http://crowd.cs.sbcc.edu:7990/projects/CS105F2016/repos/allan.knight/browse/HowToTurnInEveryProjectInThisClass.md)
 
-<img src="https://www.dropbox.com/s/tt3rejkyd8xmxxm/EX02-pull-request.png?dl=1" width="661" height="175" />
-
-1\. Click on **New pull request**
-
-The next screen then shows all or your commits up to this point.  It shows the difference between what you originally forked with what you have committed. This difference, often called a "diff", is what your turning in and what I will be grading. 
-
-This screen should look like this at the top:
-
-<img src="https://www.dropbox.com/s/nxzenwey4fanmsz/EX02-create-pull-request.png?dl=1" width="661" height="171" />
-
-2\. Click on **Create pull request**
-
-This final action "_turns_" in the assignment on GitHub. It also causes your code to be unit tested on a separate server. The result should be exactly the same as when you ran it on your computer.
-
-After grading the exercise, the pull request will be closed without merging back into the original project. This is the normal workflow and does not represent any problem with your code.
-
-Finally, you should receive an email that has links to both the pull request and the results of running your code.
-
-**NOTE** You do not need to anything on Moodle to turn-in your assignment, but your grade will be posted on there so that you mab track your progress throughout the term.
+**NOTE** You do not need to anything on Canvas to turn-in your assignment, but your grade will be posted on there so that you may track your progress throughout the term.
