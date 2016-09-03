@@ -56,7 +56,6 @@ import java.util.*;
  *
  */
 public class AlignedNumbers {
-
     /**
      * This code accepts two integers and then prints out the relationshipe 
      * between those two numbers as described in the problem statement.
