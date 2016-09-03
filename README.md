@@ -4,7 +4,7 @@ The project name of this exercise is **AlignedNumbers**.
 
 The purpose of this assignment is for you to write more of your own comments, write code to solve more complex problems, use libraries provided as part of Java and output more organized data using `printf`. 
 
-###Problem Description
+### Problem Description
 
 This problem is captured in the book at problem E2.4 and E2.5 (page 71). You are to solve this problem by writing code in the `main` method. This code will get user input for two numbers and output the appropriate mathematical result in an organized format.
 
@@ -98,7 +98,7 @@ Next, write your code to print out the letter size in `public static void main` 
 
 Once you've written your code run the code by single clicking on **AlignedNumbers.java** in the package explorer and selecting **Run->Run** from the menu or using the keyboard shortcut. Examine the output. Does it do what you want? If not, how can you modify the code to do what you want?
 
-###Using my Unit Tests
+### Using my Unit Tests
 
 Next we are going to use my unit tests to test your code. For most exercises there will be a unit test supplied that I wrote. You are supposed to use this unit test after you have written the code in **AlignedNumbers.java**.
 
@@ -110,7 +110,7 @@ The forked AlignedNumbers project from BitBucket should look like this:
 
 Yours should look **_very_** similar! The name of the tester will change for each project, and you might have a different JRE System Library though. What should be the same are the packages and what they contain.
 
-###Running the Unit Tests
+### Running the Unit Tests
 
 Next you'll want to run these unit tests. Start by right-clicking on the `unittest.cs105` package and selecting **Run As -> JUnit Test**. 
 
