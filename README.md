@@ -58,6 +58,23 @@ import java.util.*;
 public class AlignedNumbers {
 
     /**
+     * This code accepts two integers and then prints out the relationshipe 
+     * between those two numbers as described in the problem statement.
+     *
+     * @param first The first integer value
+     * @param second The second integer value
+     *
+     * @return A string with the metrics formatted as described
+     */
+    public static String alignNumbers(int first, int second) {
+    	String aligned = "";
+    	
+	// Put your code for this assignment here.
+	
+	return aligned;
+    }
+    
+    /**
      * This code runs by asking for two numbers, computing the various stats,
      * and then printing it out.
      * 
@@ -65,9 +82,16 @@ public class AlignedNumbers {
      *            command line values. Not used in this example.
      */
     public static void main(String[] args) {
+    	Scanner in = new Scanner(System.in);
+    	
+	System.out.print("Enter the first number: ");
+	int first = in.nextInt();
+	System.out.print("Enter the second number: ");
+	int second = in.nextInt();
 
+	System.out.println(alignNumbers(first, second));
     }
-}
+}}
 ```
 
 Now go through **AlignedNumbers.java** and change the [CHANGE THIS TO YOUR INFORMATION] text to the proper items. There are two items to be changed. The CRN # is either 62498, for the Thu. night lab section, or 62499, for the Thu. morning lab section.
