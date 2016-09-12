@@ -2,11 +2,11 @@
 
 The project name of this exercise is **AlignedNumbers**.
 
-The purpose of this assignment is for you to write more of your own comments, write code to solve more complex problems, use libraries provided as part of Java and output more organized data using `printf`. 
+The purpose of this assignment is for you to write more of your own comments, write code to solve more complex problems, use libraries provided as part of Java and output more organized data using `String.format`. 
 
 ### Problem Description
 
-This problem is captured in the book at problem E2.4 and E2.5 (page 71). You are to solve this problem by writing code in the `main` method. This code will get user input for two numbers and output the appropriate mathematical result in an organized format.
+This problem is captured in the book at problem E2.4 and E2.5 (page 71). You are to solve this problem by getting user input with code in the `main` method and returning a string with the aligned numbers in `alignNumbers`. This code will get user input for two numbers and output the appropriate mathematical result in an organized format.
 
 Here is a sample of how your code will prompt the user for code. When the program is run you will ask the user for two integer numbers. Do not worry about error checking; the integer inputs will always be valid.
 
@@ -14,7 +14,7 @@ Here is a sample of how your code will prompt the user for code. When the progra
 Enter the second number: <span style="color: #0f0;">25</span>
 </pre>
 
-You then print all of the statistics using the **exact** format below. Your `main` method must generate this exact format for any two integers between 1 and 1000.
+You then print all of the statistics using the **exact** format below. Your `alignNumbers` method must generate this exact format for any two integers between 1 and 1000.
 
 ```
 Sum:                        45
@@ -30,7 +30,7 @@ Minimum:                    20
 
 1. There are 30 characters in the first line starting with "S" and ending with "5".
 2. The ones digits are all aligned.
-3. Use `printf`
+3. Use `String.format`
 
 ### Getting Started
 
