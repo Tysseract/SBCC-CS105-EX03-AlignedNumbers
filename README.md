@@ -94,7 +94,7 @@ public class AlignedNumbers {
 
 Now go through **AlignedNumbers.java** and change the [CHANGE THIS TO YOUR INFORMATION] text to the proper items. There are two items to be changed. The CRN # is either 62498, for the Thu. night lab section, or 62499, for the Thu. morning lab section.
 
-Next, write your code to print out the letter size in `public static void main` between the curly braces.
+Next, write your code to print out the aligned number in `public static String alignNumbers` between the curly braces.
 
 Once you've written your code run the code by single clicking on **AlignedNumbers.java** in the package explorer and selecting **Run->Run** from the menu or using the keyboard shortcut. Examine the output. Does it do what you want? If not, how can you modify the code to do what you want?
 
