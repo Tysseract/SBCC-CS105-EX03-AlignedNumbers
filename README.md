@@ -6,7 +6,7 @@ The purpose of this assignment is for you to write more of your own comments, wr
 
 ### Problem Description
 
-This problem is captured in the book at problem E2.4 and E2.5 (page 71). You are to solve this problem by getting user input with code in the `main` method and returning a string with the aligned numbers in `alignNumbers`. This code will get user input for two numbers and output the appropriate mathematical result in an organized format.
+This problem is captured in the book at problem P2.4 and P2.5 (page 71 and 72, of the _Late Objects_ version). You are to solve this problem by getting user input with code in the `main` method and returning a string with the aligned numbers in `alignNumbers`. This code will get user input for two numbers and output the appropriate mathematical result in an organized format.
 
 Here is a sample of how your code will prompt the user for code. When the program is run you will ask the user for two integer numbers. Do not worry about error checking; the integer inputs will always be valid.
 
