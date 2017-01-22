@@ -144,29 +144,36 @@ You will see a few more dialogs (including ones that may ask for your BitBucket 
 
 Now to complete the turn-in process, once you confirmed that your code is on BitBucket, you need to create a **pull request** in the class BitBucket repository. This action will indicate to the original project that you have finished your coding and it will create a place to give feedback on a line by line basis. 
 
-Go to **your** repository for this assignment on BitBucket and click on the **Create pull request** icon. You should see something similar to this picture:
+Go to **your** repository or the repository for this assignment on BitBucket (the project you forked from to create your project).
 
 <img src="https://dl.dropboxusercontent.com/u/7698973/cs105/EX01-HelloWorld/create-pull-request.png" width="207" height="207" />
 
-1\. Select **master**
+1\. Click on the **Create pull request** icon. 
 
-The next screen then shows the source and destination of the pull request. Your code is the source and is listed at the top. The destination is the original project that you forked from. The only thing to do on this screen is to select the **master** branch for your project. When you first come to this screen you should see the following:
+You should see something similar to this picture:
+
 
 <img src="https://dl.dropboxusercontent.com/u/7698973/cs105/EX01-HelloWorld/pull-request-screen-first.png" width="600" height="250" />
 
-2\. Select **Select Branch** you should see something like this:
+The next screen then shows the source and destination of the pull request. Your code is the source and is listed at the top. The destination is the original project that you forked from. The only thing to do on this screen is to select the **master** branch for your project. Once you select **Select Branch**, as directed below, you should see the following:
 
 <img src="https://dl.dropboxusercontent.com/u/7698973/cs105/EX01-HelloWorld/pull-request-master.png" width="600" height="250" />
+
+2\. Select **Select Branch** you should see something like this:
 
 3\. Select **master** 
 
 4\. Press the **Continue** button.
 
-This screen should look like this at the top:
+Once you've followed these steps you should see this at the top:
 
 <img src="https://dl.dropboxusercontent.com/u/7698973/cs105/EX01-HelloWorld/pull-request-description.png" width="514" height="325" />
 
-5\. Click on **Create**
+5\. Under **Title**, give the pull request a meaningful title. It's mostly for your benefit.
+
+6\. Under **Description**, describe the purpose of this pull request. Usually it's just to submit the assignment. However, you can also use this field to let me know anything that might be wrong or different with your code.
+
+7\. Finally, click on **Create**
 
 After selecting **Create**, you code should build and be tested within a minute or so. If the test is successfull you will see something similar to the following screen:
 
