@@ -146,18 +146,18 @@ Now to complete the turn-in process, once you confirmed that your code is on Bit
 
 Go to **your** repository or the repository for this assignment on BitBucket (the project you forked from to create your project).
 
-<img src="https://dl.dropboxusercontent.com/u/7698973/cs105/EX01-HelloWorld/create-pull-request.png" width="207" height="207" />
+<img src="https://www.dropbox.com/s/p40wg00a72khhpv/create-pull-request.png?dl=1" width="207" height="207" />
 
 1\. Click on the **Create pull request** icon. 
 
 You should see something similar to this picture:
 
 
-<img src="https://dl.dropboxusercontent.com/u/7698973/cs105/EX01-HelloWorld/pull-request-screen-first.png" width="600" height="250" />
+<img src="https://www.dropbox.com/s/rrgmvpc9wtfjqrr/pull-request-screen-first.png?dl=1" width="600" height="250" />
 
 The next screen then shows the source and destination of the pull request. Your code is the source and is listed at the top. The destination is the original project that you forked from. The only thing to do on this screen is to select the **master** branch for your project. Once you select **Select Branch**, as directed below, you should see the following:
 
-<img src="https://dl.dropboxusercontent.com/u/7698973/cs105/EX01-HelloWorld/pull-request-master.png" width="600" height="250" />
+<img src="https://www.dropbox.com/s/r9cmia1ixppglko/pull-request-master.png?dl=1" width="600" height="250" />
 
 2\. Select **Select Branch** you should see something like this:
 
@@ -167,7 +167,7 @@ The next screen then shows the source and destination of the pull request. Your 
 
 Once you've followed these steps you should see this at the top:
 
-<img src="https://dl.dropboxusercontent.com/u/7698973/cs105/EX01-HelloWorld/pull-request-description.png" width="514" height="325" />
+<img src="https://www.dropbox.com/s/mglhiaeqd2qn72p/pull-request-description.png?dl=1" width="514" height="325" />
 
 5\. Under **Title**, give the pull request a meaningful title. It's mostly for your benefit.
 
@@ -177,6 +177,6 @@ Once you've followed these steps you should see this at the top:
 
 After selecting **Create**, you code should build and be tested within a minute or so. If the test is successful you will see something similar to the following screen:
 
-<img src="https://dl.dropboxusercontent.com/u/7698973/cs105/EX01-HelloWorld/pull-request-submitted.png" width="740" height="350" />
+<img src="https://www.dropbox.com/s/sy4c82pi4glk5pu/pull-request-submitted.png?dl=1" width="740" height="350" />
 
 Remember, green good, red bad.
