@@ -34,7 +34,7 @@ Minimum:                    20
 
 ### Getting Started
 
-Like our last exercise, we are going to start by creating **AlignedNumbers.java**. Using the techniques shown on the web page titled [How to Start Every Project in this Class](http://crowd.cs.sbcc.edu:7990/projects/CS105F2016/repos/allan.knight/browse/HowToStartEveryProject.md) create a source file called **AlignedNumbers.java**.
+Like our last exercise, we are going to start by creating **AlignedNumbers.java**. Using the techniques shown on the web page titled [How to Start Every Project in this Class](http://209.129.49.15:7990/projects/CS105/repos/allan.knight/browse/HowToStartEveryProject.md) create a source file called **AlignedNumbers.java**.
 
 ```java
 /**
