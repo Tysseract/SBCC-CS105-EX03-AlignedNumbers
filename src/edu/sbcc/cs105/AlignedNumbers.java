@@ -1,5 +1,5 @@
 /**
- * CS 105 Theory & Practice
+  * CS 105 Theory & Practice
  * CRN: 62499
  * Assignment: AlignedNumbers
  * 
@@ -30,9 +30,6 @@ public class AlignedNumbers {
         String aligned = "";
     	
         // Put your code for this assignment here.
-        
-        //spacing to ones: 30
-        final int SPACING = 30;
         
         //calculate
         int valueSum = first + second;
@@ -77,5 +74,6 @@ public class AlignedNumbers {
         int second = in.nextInt();
 
         System.out.println(alignNumbers(first, second));
+        in.close();
     }
 }
